@@ -1,6 +1,6 @@
 ---
 title: "[백엔드 여정] 01. Spring MVC 구조와 핵심 원리 완벽 정리"
-date: 2026-03-23 21:30:00 +0900
+date: 2026-03-23 09:30:00 +0900
 categories: [Backend, Spring]
 tags: [spring, mvc, dispatcherservlet, dto, entity]
 ---
