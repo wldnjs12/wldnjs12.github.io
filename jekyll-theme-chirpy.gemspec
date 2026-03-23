@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/cotes2020/jekyll-theme-chirpy"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f|
+  # Ensure UTF-8 so non-ASCII filenames don't break bundler in CI.
+  spec.files         = `git ls-files -z`.force_encoding("UTF-8").split("\x0").select { |f|
     f.match(%r!^((_(includes|layouts|sass|(data\/(locales|origin)))|assets)\/|README|LICENSE)!i)
   }
 
