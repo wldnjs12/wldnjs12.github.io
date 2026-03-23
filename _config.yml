@@ -71,8 +71,8 @@ theme_mode: # [light | dark]
 # 미디어 리소스 CDN (기본값 유지)
 cdn: "https://chirpy-img.netlify.app"
 
-# 사이드바 아바타 이미지 경로
-avatar: "/assets/img/avatar.jpg" # 나중에 이 경로에 사진을 넣으세요!
+# the avatar on sidebar, support local or CORS resources
+avatar: "/commons/profile.jpeg"
 
 social_preview_image: 
 
