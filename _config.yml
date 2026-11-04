@@ -91,7 +91,7 @@ assets:
 pwa:
   enabled: true 
   cache:
-    enabled: true 
+    enabled: false
     deny_paths:
 
 paginate: 10
